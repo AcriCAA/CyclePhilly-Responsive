@@ -1,7 +1,7 @@
 
 #icon {
 
-width: 10%;
+width: 15%;
 height: auto;
 float: left;
 padding: 1%
@@ -37,7 +37,7 @@ heigh:auto;
 ********************************************/
 
  /*body { 
-  background: #EE0000 url("../img/skyline_trace.png") no-repeat center center fixed; 
+  background: #16A6E9 url("../img/background.png") no-repeat center center fixed; 
     
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
@@ -51,7 +51,7 @@ heigh:auto;
 
 
 html { 
-  background: #EE0000 url("../img/skyline_trace.png") no-repeat center center fixed;
+  background: #16A6E9 url("../img/background.png") no-repeat center center fixed;
  background-size: cover;
 -webkit-background-size: cover; 
     -moz-background-size: cover; 
@@ -75,7 +75,7 @@ body
 
 
 width: 15%;
-height: 15%;
+height: auto;
 }
 
 
@@ -398,13 +398,13 @@ section footer {
 		   }
 
 #container-nav {
-	background: rgba(238, 0, 0, 0.48);
+	background: rgba(255, 255, 255, 0.75);
 	color: #fff;
 	border-bottom-color: #fff;
 }
 
 #container-header {
-	/*background: #EE0000 url("../img/skyline_trace.png") no-repeat top center;*/
+	/*background: #EE0000 url("../img/background.png") no-repeat top center;*/
 	padding: 10% 0;
 	width:100%;
 	-webkit-background-size: cover;
