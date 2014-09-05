@@ -1,7 +1,90 @@
 
+
+@font-face {
+	font-family: 'ChunkFive';
+	src: url('../fonts/ChunkFive.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/ChunkFive.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/ChunkFive.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/ChunkFive.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/ChunkFive.svg#ChunkFive') format('svg'), /* Legacy iOS */
+	     url('../fonts/ChunkFive.otf') format('opentype');
+	}
+
+
+
+#chunk {
+
+
+font-family: ChunkFive, Helvetica, Arial, sans-serif;
+
+}
+
+#branding {
+
+overflow: hidden;
+/*clear: none;*/
+float: left;
+/*display: block;*/
+}
+
+#logo {
+
+
+padding: 10px .76em 2em 1em;  /*  top    1em  padding  */
+                             /*  right  3px  padding  */
+                             /*  bottom 30px padding  */
+                             /*  left   5px  padding  */
+float: left;
+display: inline-block;
+width: 100px;
+overflow:hidden;
+
+
+}
+
+#cyclephilly {
+margin-top: 35px;
+margin-bottom: 0;
+font-family: ChunkFive, Arial, sans-serif;
+padding: 0 20px 0 0;  /*  top    1em  padding  */
+                             /*  right  3px  padding  */
+                             /*  bottom 30px padding  */
+                             /*  left   5px  padding  */
+
+line-height: 2em;
+/*font-size: 2.5em;*/
+
+font-size: 40px;
+font-weight: 50;
+float: left;
+color: #256BAF;
+overflow: hidden;
+}
+
+#ride {
+
+margin-top: -55px;
+margin-left: 135px;
+padding: 0 0 0 0;
+font-family: Arial, sans-serif;
+text-transform: uppercase;
+/*font-size: 19em;*/
+
+font-size: 10px;
+clear: left;
+float: left;
+font-weight: bold;
+color: #16A6C9;
+
+overflow: hidden;
+
+}
+
+
+
 #icon {
 
-width: 15%;
+width: 10%;
 height: auto;
 float: left;
 padding: 1%
@@ -11,7 +94,7 @@ padding: 1%
 header a {
 
 
-	color: #d2d0d2;
+	color: #5A7B37;
 	font-weight: bold;
 	text-decoration: none;
 
@@ -36,46 +119,20 @@ heigh:auto;
 	Progresive Background Image Scrolling
 ********************************************/
 
- /*body { 
-  background: #16A6E9 url("../img/background.png") no-repeat center center fixed; 
-    
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
-
-    height: 100%;
-
-} */
-
-
-
-html { 
-  background: #16A6E9 url("../img/background.png") no-repeat center center fixed;
- background-size: cover;
--webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
-
-  height: 100%;
-
-}
-
-
-body
-{
-  height:100%;
- /* overflow: auto; */
-}
-
+ html { 
+  background: #EE0000 url("../img/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
 
 
 #tweet {
 
 
 width: 15%;
-height: auto;
+height: 15%;
 }
 
 
@@ -241,7 +298,7 @@ table {
 	Web Fonts
 ****************************************** */
 
-@font-face {
+/*@font-face {
     font-family: 'Roboto Condensed Light';
     src: url('file:///C|/Users/ca458/AppData/Local/Temp/Temp1_RWD_08_Lesson_files (2).zip/08_Lesson_files/fonts/robotocondensed-light-webfont.eot');
     src: url('file:///C|/Users/ca458/AppData/Local/Temp/Temp1_RWD_08_Lesson_files (2).zip/08_Lesson_files/fonts/robotocondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -250,7 +307,7 @@ url('file:///C|/Users/ca458/AppData/Local/Temp/Temp1_RWD_08_Lesson_files (2).zip
 url('file:///C|/Users/ca458/AppData/Local/Temp/Temp1_RWD_08_Lesson_files (2).zip/08_Lesson_files/fonts/robotocondensed-light-webfont.svg#RobotoCondensedLight') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 /* ******************************************
 	Custom Styles
@@ -278,7 +335,7 @@ html {
 }
 
 body {
-	font-family: "Roboto Condensed Light", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: Arial, sans-serif;
 	/*background: #eee url("file:///C|/Users/ca458/AppData/Local/Temp/Temp1_RWD_08_Lesson_files (2).zip/08_Lesson_files/img/bg-pattern.png") repeat 0 0; */
 }
 
@@ -343,6 +400,7 @@ h6 {
 	        -webkit-box-sizing: border-box;
 	        -moz-box-sizing: border-box;
 	        box-sizing: border-box;
+	        min-height: 125px;
 		}
 		
 #masthead {
@@ -398,13 +456,13 @@ section footer {
 		   }
 
 #container-nav {
-	background: rgba(255, 255, 255, 0.75);
+	background:#fff;
 	color: #fff;
 	border-bottom-color: #fff;
 }
 
 #container-header {
-	/*background: #EE0000 url("../img/background.png") no-repeat top center;*/
+	/*background: #EE0000 url("../img/skyline_trace.png") no-repeat top center;*/
 	padding: 10% 0;
 	width:100%;
 	-webkit-background-size: cover;
@@ -743,6 +801,9 @@ img {
     padding: 0;
     border-bottom: 1px solid #eee;
     margin: .65em 0 .39em;
+
+/*float: left;*/
+
 }
 
 #nav li {
@@ -762,13 +823,13 @@ img {
 #nav a {
    display: block;
    font-size: 1.063em;
-   color: #f8f8f8;
+   color: #000;
    text-decoration: none;
    padding: .975em 1.3em; 
 }
 
 #nav a:hover {
-   background: #333;
+   background: #dfdeb6;
 }
 
 
@@ -812,6 +873,7 @@ body {
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
     user-select: none;
+    clear: both;
 }
 
 /* 
@@ -823,13 +885,16 @@ body {
     overflow: hidden;  
 }
 
+/*#nav ul {
+
+float: left;
+clear: both;
+margin: 100px 0 0 -100px;
+
+}*/
 /* ******************************************
     Media Queries
 ****************************************** */
-
-
-
-
 
 /* @media screen and (min-width: 720px) */
 @media screen and (min-width: 45em) {
